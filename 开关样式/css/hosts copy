@@ -1,0 +1,28 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+#Google Services START
+210.242.125.89 accounts.google.com
+210.242.125.89 apis.google.com
+210.242.125.89 books.google.com
+210.242.125.89 browserchannel-docs.l.google.com
+210.242.125.89 browserchannel-spreadsheets.l.google.com
+210.242.125.89 browsersync.google.com
+210.242.125.89 browsersync.l.google.com
+210.242.125.89 buzz.google.com
+210.242.125.89 cache.l.google.com
+210.242.125.89 cache.pack.google.com
+210.242.125.89 calendar.google.com
+210.242.125.89 cbk0.google.com
+210.242.125.89 cbk1.google.com
+192.30.252.128 github.com
+
+#github.com
+192.30.253.113 www.github.com
+192.30.253.112 www.github.com

@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+}
+
+div.container {
+	position: relative;
+	width: 50%;
+	
+}
+
+img.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+div.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .9s ease;
+	background-color: #008CBA;
+}
+
+div.overlay:hover {
+	opacity: 1;
+}
+
+div.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
